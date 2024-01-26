@@ -1,0 +1,13 @@
+{
+  "environment_name": "simple",
+  "input_template": "before.txt",
+  "output_template": "after.txt",
+  "before": [
+    ["before.txt", "after.txt"],
+    ["other.txt", null]
+  ],
+  "after": [
+    "after.txt",
+    "other.txt"
+  ]
+}

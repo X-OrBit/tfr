@@ -1,0 +1,8 @@
+{
+  "environment_name": "asterisk_before_last_part",
+  "input_template": "path*/from.txt",
+  "output_template": "path/to#1.txt",
+  "before": [],
+  "after": [],
+  "raise_error":  true
+}

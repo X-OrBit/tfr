@@ -1,0 +1,15 @@
+{
+  "environment_name": "escaped_asterisk",
+  "input_template": "file\\*_*.*",
+  "output_template": "move/to/file_*_#1.#2",
+  "before": [
+    ["file*_baza.txt", "move/to/file_*_baza.txt"],
+    ["file*_vaza.png", "move/to/file_*_vaza.png"],
+    ["filename_#aza.mov", null]
+  ],
+  "after": [
+    "move/to/file_*_baza.txt",
+    "move/to/file_*_vaza.png",
+    "filename_#aza.mov"
+  ]
+}

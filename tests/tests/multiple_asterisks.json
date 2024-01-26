@@ -1,0 +1,18 @@
+{
+  "environment_name": "multiple_asterisks",
+  "input_template": "path/to/some_*_filename.*",
+  "output_template": "path2/to/changed_#1_filename.#2",
+  "before": [
+    ["path/to/some_A_filename.bin", "path2/to/changed_A_filename.bin"],
+    ["path/to/some_A_filename.jpg", "path2/to/changed_A_filename.jpg"],
+    ["path/to/some_B_filename.bin", "path2/to/changed_B_filename.bin"],
+    ["path/to/some_B_filename.jpg", "path2/to/changed_B_filename.jpg"]
+  ],
+  "after": [
+    "path/to/",
+    "path2/to/changed_A_filename.bin",
+    "path2/to/changed_A_filename.jpg",
+    "path2/to/changed_B_filename.bin",
+    "path2/to/changed_B_filename.jpg"
+  ]
+}

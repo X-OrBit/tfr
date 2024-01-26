@@ -1,0 +1,13 @@
+{
+  "environment_name": "nothing_to_rename_simple",
+  "input_template": "before",
+  "output_template": "after.txt",
+  "before": [
+    ["before.txt", null],
+    ["other.txt", null]
+  ],
+  "after": [
+    "before.txt",
+    "other.txt"
+  ]
+}

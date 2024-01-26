@@ -1,0 +1,8 @@
+{
+  "environment_name": "double_asterisk",
+  "input_template": "from**.txt",
+  "output_template": "to#1#2.txt",
+  "before": [],
+  "after": [],
+  "raise_error":  true
+}

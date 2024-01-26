@@ -1,0 +1,13 @@
+{
+  "environment_name": "directory",
+  "input_template": "*directory",
+  "output_template": "directory#1",
+  "before": [
+    ["1directory/", null],
+    ["2directory", "directory2"]
+  ],
+  "after": [
+    "1directory/",
+    "directory2"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "environment_name": "captures_not_covered_by_flags",
+  "input_template": "path/one_*_two_*_three_*.txt",
+  "output_template": "path/one_#1_three_#3.txt",
+  "before": [],
+  "after": [],
+  "raise_error":  true
+}

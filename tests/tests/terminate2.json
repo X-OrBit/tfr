@@ -1,0 +1,15 @@
+{
+  "environment_name": "terminate2",
+  "input_template": "from.txt",
+  "output_template": "to",
+  "before": [
+    ["from.txt", null],
+    ["to/", null]
+  ],
+  "after": [
+    "from.txt",
+    "to/"
+  ],
+  "raise_error": true,
+  "action_when_exists": "overwrite"
+}

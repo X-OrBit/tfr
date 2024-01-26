@@ -1,0 +1,17 @@
+{
+  "environment_name": "output_template_with_hash",
+  "input_template": "file_*.txt",
+  "output_template": "new_#_file_#1.txt",
+  "before": [
+    ["file_1.txt", "new_#_file_1.txt"],
+    ["file_lol.txt", "new_#_file_lol.txt"],
+    ["file_.txt", "new_#_file_.txt"],
+    ["file.txt", null]
+  ],
+  "after": [
+    "new_#_file_1.txt",
+    "new_#_file_lol.txt",
+    "new_#_file_.txt",
+    "file.txt"
+  ]
+}

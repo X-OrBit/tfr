@@ -1,0 +1,15 @@
+{
+  "environment_name": "terminate",
+  "input_template": "from.txt",
+  "output_template": "to.txt",
+  "before": [
+    ["from.txt", null],
+    ["to.txt", null]
+  ],
+  "after": [
+    "from.txt",
+    "to.txt"
+  ],
+  "raise_error":  true,
+  "action_when_exists": "terminate"
+}

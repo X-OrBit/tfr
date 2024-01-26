@@ -1,0 +1,18 @@
+{
+  "environment_name": "flag_before_last_part",
+  "input_template": "path/to/some_*_filename.*",
+  "output_template": "path2/#1/file.#2",
+  "before": [
+    ["path/to/some_A_filename.bin", "path2/A/file.bin"],
+    ["path/to/some_A_filename.jpg", "path2/A/file.jpg"],
+    ["path/to/some_B_filename.bin", "path2/B/file.bin"],
+    ["path/to/some_B_filename.jpg", "path2/B/file.jpg"]
+  ],
+  "after": [
+    "path/to/",
+    "path2/A/file.bin",
+    "path2/A/file.jpg",
+    "path2/B/file.bin",
+    "path2/B/file.jpg"
+  ]
+}

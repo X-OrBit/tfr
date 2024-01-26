@@ -1,0 +1,21 @@
+{
+  "environment_name": "png",
+  "input_template": "path/to/*.png",
+  "output_template": "path/to/images/#1.png",
+  "before": [
+    ["path/to/image.png", "path/to/images/image.png"],
+    ["path/to/other_image.png", "path/to/images/other_image.png"],
+    ["path/to/not_image.txt", null],
+    ["path/to/trash.cpp", null],
+    ["path/to/other_trash.py", null],
+    ["path/to/wtf.asm", null]
+  ],
+  "after": [
+    "path/to/images/image.png",
+    "path/to/images/other_image.png",
+    "path/to/not_image.txt",
+    "path/to/trash.cpp",
+    "path/to/other_trash.py",
+    "path/to/wtf.asm"
+  ]
+}

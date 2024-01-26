@@ -1,0 +1,15 @@
+{
+  "environment_name": "skip_when_exists",
+  "input_template": "before_*.txt",
+  "output_template": "new/path/after_#1.txt",
+  "before": [
+    ["before_1.txt", null],
+    ["new/path/after_1.txt", null]
+  ],
+  "after": [
+    "before_1.txt",
+    "new/path/after_1.txt"
+  ],
+  "raise_error": false,
+  "action_when_exists": "skip"
+}
