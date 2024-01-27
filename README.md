@@ -6,7 +6,7 @@ Project on the HSE Rust course
 
 ## 🔧 Installation
 
-You must have the project [dependencies](#dependencies) installed
+You must have the project [dependencies](#-dependencies) installed
 
 1. Cloning a repository
 
