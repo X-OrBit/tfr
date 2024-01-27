@@ -14,7 +14,7 @@ You must have the project [dependencies](#-dependencies) installed
 git clone https://github.com/X-OrBit/tfr
 ```
 
-2. Going to the Oxygen directory
+2. Going to the tfr directory
 
 ```shell
 cd tfr
